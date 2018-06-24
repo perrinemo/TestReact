@@ -1,0 +1,7 @@
+.list-group-item, .card {
+    text-align: center;
+}
+
+.list-group, .card {
+    margin-top: 20px;
+}
