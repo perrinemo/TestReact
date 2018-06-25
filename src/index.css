@@ -4,7 +4,19 @@ body {
   font-family: sans-serif;
 }
 
-#family {
+.contenu {
   margin: 0 auto;
-  width: 25%;
+  display:flex;
+}
+
+button {
+  float: right;
+}
+
+h3 {
+  font-style: italic;
+}
+
+.form {
+  margin-top: 20px;
 }

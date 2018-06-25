@@ -28,11 +28,13 @@ export default class Form extends React.Component {
     render() {
         return(
             <form onSubmit={this.handleSubmit}>
-                <label>Name:
-                    <input type="text" value={this.state.value} 
+                <div className="form-group">
+                    <label for="word">Entre un mot :</label>
+                    <input id="word" className="form-control" placeholder="banane" type="text" value={this.state.value} 
                     onChange={this.handleChange} />
-                </label>
-                <input type="submit" value="submit" onClick={this.changeName} />
+                </div>
+                
+                <button type="submit" className="btn" onClick={this.changeName}>OK</button>
 
                 <h3>{this.state.name}</h3>
             </form>
